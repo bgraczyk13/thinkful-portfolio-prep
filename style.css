@@ -1,0 +1,117 @@
+/* ------- BASIC STYLING ------- */
+
+header {
+  height: 150px;
+  background-color: navy;
+}
+
+header h2 {
+  font-family: "Rancho", serif;
+  color: #fff;
+  margin: 25px;
+  font-size: 22px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-image: url(images/hero/background.jpg);
+  font-family: "Rancho", sans-serif;
+}
+
+.logo {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  font-size: 42px;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0 0 0;
+}
+
+section,
+article {
+  padding: 0 25%;
+  margin: 80px 0;
+}
+
+.border-top {
+  padding-top: 80px;
+}
+
+hr {
+  border-top: 2px solid #000000;
+  width: 45%;
+}
+
+footer {
+  background-color: navy;
+}
+
+/* -------  LINKS AND FONTS ------- */
+
+h1,
+h2,
+h3 {
+  color: #050505;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Pacifico", sans-serif;
+  text-align: center;
+}
+
+p,
+li {
+  font-family: "Rancho", sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+a:link {
+  color: rgb(17, 134, 252);
+}
+a:visited {
+  color: dodgerblue;
+}
+a:hover {
+  color: navy;
+}
+a:active {
+  color: #190bdd;
+}
+a:hover {
+  text-decoration: underline overline dotted lightblue;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+/* -------  IMAGE ------- */
+
+img,
+iframe {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid navy;
+}
+
+#profpic {
+  height: 350px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
